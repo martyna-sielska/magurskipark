@@ -1,0 +1,111 @@
+html, body {
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif
+}
+
+#top {
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+
+#NAGLOWEK {
+	background-color: #2F3B33;
+	color: #F7F3EA;
+	padding: 20px 16px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#BANER {
+	background-image: url(img/banermagurski.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 220px;
+}
+
+#MENU {
+	width: 190px;
+	float: left;
+	overflow: hidden;
+	background-color: #E6DDCF;
+}
+
+#INFORMACJE{
+	margin-left: 150px;
+	padding: 10px;
+}
+
+
+#TRESC {
+	width: 900px;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+	padding:10px
+}
+
+#TRESC h2 {
+  margin-top: 0;
+}
+
+#TRESC img.logo {
+  width: 120px;
+  height: auto;
+  float: left;
+  margin: 0 12px 8px 0;
+}
+
+#TRESC img.mapa {
+  width: 890px;
+  height: auto;
+  margin: 10px auto 10px; 
+}
+
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	background-color: #2F3B33;
+	color: #F7F3EA;
+    padding: 10px
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	width: 200px;
+	padding: 2px 2px 1px 2px;
+	background-color: #D9CBB6;
+	border: 3px double #3E6B6A;
+}
+
+ul li {
+	border-bottom: 1px solid #D9CBB6;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 176px;
+	text-decoration: none;
+	padding: 7px;
+	font-weight: bold;
+	background-color: #2E5D5C;
+	color: #F3EFE6;
+	border-left: 10px solid #254B4A;
+}
+
+ul a:hover {
+	width: 166px;
+	background-color: #B86B22;
+	color: #fff;
+	border-left: 20px solid #8F4F18;
+}
